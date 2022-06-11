@@ -84,14 +84,4 @@ function moveChar(Character* theChar) //can be used for multiple characters
   }
 }
 
-this bit could be it's own function:
-
-    if(!theChar.Moving && !theChar.isAt(10,20))
-      {
-        theChar.Walk(10, 20);
-      } else if (theChar.isAt(10,20))
-      {
-        theChar.SCABS(1);
-      }
-
 */
