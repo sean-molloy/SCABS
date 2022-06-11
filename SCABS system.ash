@@ -32,7 +32,7 @@ There's another (character) custom extender function which creates a delay witho
 using another custom property 'delayClicker' to count game cycles without having to set a timer.
 It returns true when it reaches the amount of seconds you call the function with.
 
-Also there's Character.SCABwalk, which just moves the character to a destination and changes 
+Also there's Character.SCABSwalk, which just moves the character to a destination and changes 
 the SCAB value when they get there. Default value is 1, or increment, but can be set to 
 change to any block in the switch case.
 
@@ -58,7 +58,7 @@ function moveChar(Character* theChar) //can be used for multiple characters
       //if the character hasn't reached the destination, and they're not
       //moving, give character instructions to go there.
       //if the character has reached the destination, increment SCABS
-      theChar.SCABwalk(10, 10);
+      theChar.SCABSwalk(10, 10);
     break;
     case 2:
       if(theChar.delay(4.0)) //after 4 seconds, run this block
@@ -67,7 +67,7 @@ function moveChar(Character* theChar) //can be used for multiple characters
       }
     break;
     case 3:
-      theChar.SCABwalk(10, 20);
+      theChar.SCABSwalk(10, 20);
     break;
     case 4:
     //this block branches to two different cases, for example
