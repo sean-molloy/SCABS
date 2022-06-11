@@ -13,7 +13,7 @@ import bool isAt(this Character*, int x, int y);
 import bool InRect(this Character*, int nwX, int nwY, int seX, int seY);
 
 //character walk to and changeSCAB value
-import function SCABSwalk(this Character* int x, int y, int scabVal);
+import function SCABSwalk(this Character* int x, int y, int scabVal = 1);
 
 
   
