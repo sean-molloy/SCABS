@@ -13,12 +13,12 @@ import bool isAt(this Character*, int x, int y);
 import bool InRect(this Character*, int nwX, int nwY, int seX, int seY);
 
 //character walk to and changeSCAB value
-import function SCABSwalk(this Character*, int x, int y, int scabVal = 1);
+import function SCABSwalk(this Character*, int x, int y, int scabVal = 1, walkWhere = eWalkableAreas);
 
 
   
 /*
-Introducint the SCABS system:
+Introducing the SCABS system:
 
 First, character's have a custom property (int) SCABS which is initialised as zero.
 
