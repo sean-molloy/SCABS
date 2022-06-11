@@ -24,9 +24,13 @@ First, character's have a custom property (int) SCABS which is initialised as ze
 
 They also have a custom property (int) delayClicker also initialised at Zero.
 
-The SCABS function is a character extender function which returns the character's SCABS value, but can also be used to increment or change this number. (Character.SCABS(1) will increment, Character(50) sets SCABS to 50, Character.SCABS() will just return the SCABS value.)
+The SCABS function is a character extender function which returns the character's SCABS value, 
+but can also be used to increment or change this number. (Character.SCABS(1) will increment, 
+Character(50) sets SCABS to 50, Character.SCABS() will just return the SCABS value.)
 
-There's another (character) custom extender function which creates a delay without using a timer, using another custom property 'delayClicker' to count game cycles without having to set a timer. It returns true when it reaches the amount of seconds you call the function with.
+There's another (character) custom extender function which creates a delay without using a timer, 
+using another custom property 'delayClicker' to count game cycles without having to set a timer.
+It returns true when it reaches the amount of seconds you call the function with.
 
 eg Character.delay(2.5) will return true after 2.5 seconds.
 
