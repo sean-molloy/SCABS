@@ -15,11 +15,11 @@ Also there's Character.SCABwalk, which just moves the character to a destination
 
 eg Character.delay(2.5) will return true after 2.5 seconds.
 
-# USAGE:
+## USAGE:
 
 
 In a room script make a function which will be called from room_RepExec() with a switch case like this:
-
+```
 function moveChar(Character* theChar) //can be used for multiple characters
 {
   switch(theChar.SCABS())
@@ -61,5 +61,4 @@ function moveChar(Character* theChar) //can be used for multiple characters
   }
 }
 
-
-
+```
