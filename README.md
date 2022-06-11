@@ -1,9 +1,7 @@
 # SCABS
-Switch Case for Action / Behaviour Scripting
+Switch Case for Action / Behaviour Scripting.
 
-Hi all,
-
-I've been developing a system for scripting non-player behavior in AGS based on the way the Sierra Creative Interpreter does this. I present to you: Switch Case Action/Behavior System, or SCABS for short.
+SCABS is a system for scripting non-player behavior in AGS inspired by the way the Sierra Creative Interpreter does this.
 
 First, character's have a custom property (int) SCABS which is initialised as zero.
 
@@ -17,7 +15,7 @@ Also there's Character.SCABwalk, which just moves the character to a destination
 
 eg Character.delay(2.5) will return true after 2.5 seconds.
 
-USAGE:
+# USAGE:
 
 
 In a room script make a function which will be called from room_RepExec() with a switch case like this:
